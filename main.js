@@ -62,7 +62,11 @@ const updateData = (first = false) => {
           dataSourceLinks.innerHTML += `&nbsp;<a href="${source.title}" target="_blank">${source.title}</a>`
         })
       }
+
+      console.log('updated')
     })
 }
 
 updateData(true);
+
+setInterval(() => updateData(), 10000)
