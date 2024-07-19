@@ -1,0 +1,17 @@
+{
+  "name": "joever-level",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 3000",
+    "build": "vite build",
+    "preview": "vite preview --host --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@fontsource/raleway": "^5.0.19"
+  }
+}
