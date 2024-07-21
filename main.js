@@ -59,7 +59,7 @@ const updateData = (first = false) => {
 
       if (first) {
         data.sources.forEach((source) => {
-          dataSourceLinks.innerHTML += `&nbsp;<a href="${source.title}" target="_blank">${source.title}</a>`
+          dataSourceLinks.innerHTML += `&nbsp;<a href="${source.source}" target="_blank">${source.title}</a>`
         })
       }
 
